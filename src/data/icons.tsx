@@ -26,7 +26,7 @@ interface Item {
   icon: any;
 }
 let mycolor: string = "cyan";
-let size: number = 74;
+let size: number = 50;
 const MystackIcons: Item[] = [
   { id: 1, name: "python", icon: <FaPython size={size} color={mycolor} /> },
   { id: 2, name: "java", icon: <FaJava size={size} color={mycolor} /> },

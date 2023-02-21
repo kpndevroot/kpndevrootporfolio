@@ -21,7 +21,7 @@ export default function Example() {
   }, []);
 
   return (
-    <div className="w-full py-2 px-4 lg:px-8 lg:py-4 bg-dark_bg  shadow mx-auto">
+    <div className="w-full py-2 px-4 lg:px-8 lg:py-4 bg-dark_bg  shadow mx-auto ">
       <div className="container mx-auto flex items-center justify-between text-gray-400 ">
         <IconButton
           variant="outlined"
@@ -35,7 +35,7 @@ export default function Example() {
         <Typography
           as="a"
           href="#"
-          variant="h3"
+          variant="h3 sm:h4"
           className="mr-4 cursor-pointer py-1.5 font-normal"
         >
           <span>kpdev_root</span>

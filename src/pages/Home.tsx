@@ -11,7 +11,7 @@ const user: any = {
 };
 function Home() {
   return (
-    <div className="flex flex-col justify-center items-center gap-4 gap-x-16 bg-dark_bg h-auto h-full">
+    <div className="flex flex-col justify-center items-center gap-4 gap-x-16 bg-dark_bg h-full">
       <div className="imageContainer">
         <img src={img} className="w-44 rounded-full bg-white" />
       </div>
@@ -23,7 +23,7 @@ function Home() {
       <div className="desc">
         <h3
           className={`text-gray-100 text-2xl font-italic sm:text-sm font-Firacode ${
-            window.innerWidth <= 640 ? "text-sm p-5 text-center" : ""
+            window.innerWidth <= 640 ? "text-xsm p-5 text-center" : ""
           }`}
         >
           " Tech-savvy and passionate about the latest advancements in
@@ -35,7 +35,7 @@ function Home() {
           SKILLS
         </h1>
       </div>
-      <div className="language-dock flex  gap-4 flex-wrap justify-center items-center w-9/12">
+      <div className="language-dock flex  gap-3 flex-wrap justify-center items-center w-9/12 ">
         {MystackIcons.map((item, i) => (
           <div
             key={i}
