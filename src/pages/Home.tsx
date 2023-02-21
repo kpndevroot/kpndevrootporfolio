@@ -16,8 +16,8 @@ function Home() {
         <img src={img} className="w-44 rounded-full bg-white" />
       </div>
       <div className="flex nameContainer bg-gray-800 text-center w-80 h-20 rounded-lg justify-center items-center ">
-        <h1 className="text-gray-100 font-normal text-lg font-FiraCode">
-          {user?.intro}
+        <h1 className="text-gray-100 font-normal text-lg font-FiraCode bg-gray-800 ">
+          Hey I'am Vishnu V 👋
         </h1>
       </div>
       <div className="desc">
