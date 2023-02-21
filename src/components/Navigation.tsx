@@ -28,7 +28,7 @@ export default function Example() {
           color={COLORS.iconColor}
           ripple={true}
           size="md"
-          className="hidden lg:inline-block shadow"
+          className="hidden lg:inline-block shadow font-Firacode font-extrabold"
         >
           <FaTerminal size={30} />
         </IconButton>

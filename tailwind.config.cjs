@@ -8,7 +8,11 @@ module.exports = withMT({
     "path-to-your-node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Firacode: ["Fira Code ", "Fira Code"],
+      },
+    },
     screens: {
       esm: "500px",
     },
