@@ -6,6 +6,7 @@ import { MdMail } from "react-icons/md";
 
 import { MystackIcons } from "../data/icons";
 import GetTouch from "../components/GetTouch";
+import Projects from "../components/Projects";
 const user: any = {
   intro: " Hey I'am Vishnu V 👋",
 };
@@ -45,6 +46,12 @@ function Home() {
           </div>
         ))}
       </div>
+      <div className="stack-heading-box">
+        <h1 className="stack-head font-bold text-xl text-gray-100 font-Firacode">
+          PROJECTS
+        </h1>
+      </div>
+      <Projects />
       <GetTouch />
     </div>
   );
